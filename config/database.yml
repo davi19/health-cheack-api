@@ -5,21 +5,21 @@ default: &default
 
 development:
   <<: *default
-  database: d3b3emd482i96i
-  username: fkhseobxsnzkne
-  password: f0d38f1cb623fd4c2daebfa818df183f05a38a287961ed7715ca45c9912a61c1
-  host: ec2-52-87-135-240.compute-1.amazonaws.com
+  database: de4ejsjhgrcuv5
+  username: bxibezorjcipfz
+  password: 6ad88522e69e19ab6b02bec3fbd80e37ea6193c23c02c1befab88984a810d75d
+  host: ec2-54-146-4-66.compute-1.amazonaws.com
 
 test:
   <<: *default
-  database: d3b3emd482i96i
-  username: fkhseobxsnzkne
-  password: f0d38f1cb623fd4c2daebfa818df183f05a38a287961ed7715ca45c9912a61c1
-  host: ec2-52-87-135-240.compute-1.amazonaws.com
+  database: de4ejsjhgrcuv5
+  username: bxibezorjcipfz
+  password: 6ad88522e69e19ab6b02bec3fbd80e37ea6193c23c02c1befab88984a810d75d
+  host: ec2-54-146-4-66.compute-1.amazonaws.com
 
 production:
   <<: *default
-  database: d3b3emd482i96i
-  username: fkhseobxsnzkne
-  password: f0d38f1cb623fd4c2daebfa818df183f05a38a287961ed7715ca45c9912a61c1
-  host: ec2-52-87-135-240.compute-1.amazonaws.com
+  database: de4ejsjhgrcuv5
+  username: bxibezorjcipfz
+  password: 6ad88522e69e19ab6b02bec3fbd80e37ea6193c23c02c1befab88984a810d75d
+  host: ec2-54-146-4-66.compute-1.amazonaws.com
