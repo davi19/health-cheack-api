@@ -12,10 +12,11 @@ module Api
                 else
                     render json: {status: 'ERROR', message:'Erro ao cadastrar alerta', data:article.erros},status: :unprocessable_entity
                 end
-                private def alert_params
+            end
+                private 
+                def alert_params
                     params.permit(:name,:starthour,:endhour,:interval)
                 end
             end
         end
     end
-end
