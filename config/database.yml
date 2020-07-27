@@ -1,0 +1,25 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: d3b3emd482i96i
+  username: fkhseobxsnzkne
+  password: f0d38f1cb623fd4c2daebfa818df183f05a38a287961ed7715ca45c9912a61c1
+  host: ec2-52-87-135-240.compute-1.amazonaws.com
+
+test:
+  <<: *default
+  database: d3b3emd482i96i
+  username: fkhseobxsnzkne
+  password: f0d38f1cb623fd4c2daebfa818df183f05a38a287961ed7715ca45c9912a61c1
+  host: ec2-52-87-135-240.compute-1.amazonaws.com
+
+production:
+  <<: *default
+  database: d3b3emd482i96i
+  username: fkhseobxsnzkne
+  password: f0d38f1cb623fd4c2daebfa818df183f05a38a287961ed7715ca45c9912a61c1
+  host: ec2-52-87-135-240.compute-1.amazonaws.com

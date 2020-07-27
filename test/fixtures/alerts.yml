@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  starthour: 2020-07-27 08:49:45
+  endhour: 2020-07-27 08:49:45
+  interval: 
+
+two:
+  name: MyString
+  starthour: 2020-07-27 08:49:45
+  endhour: 2020-07-27 08:49:45
+  interval: 
